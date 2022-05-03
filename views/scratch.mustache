@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+     {{>header}}
+    </html>
+
+    <body>
+        {{>banner}}
+
+     <!-- Main UI control Container -->
+    <div class="container-fluid m-2">
+        <div class="row">
+
+            <!-- Content_Box_Left -->
+            <div class="col-md-6">
+                {{>home_about_us}}
+            
+                <!-- Content_Box_Left_Devider -->
+                <div class="row m-3" style="background: white;"> </div>
+                <!-- /Content_Box_Left_Devider -->
+
+                {{>home_our_sources}}
+            </div>
+            <!-- /Content_Box_Left -->
+
+            <!-- Content_Box_Right -->
+            <div class="col-md-6">
+                {{>home_menu}}
+            <!-- /Content_Box_Right -->
+            </div>
+                          
+
+        </div>
+    <!-- /Main UI control Container -->
+    </div>
+   
+    </body>
+
+
